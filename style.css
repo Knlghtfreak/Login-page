@@ -17,18 +17,18 @@ body {
   background-size: cover;
   background-position: center;
   transition: all;
-  animation: slide 5s ease-in-out 3s infinite normal;
+  animation: slide 5s ease 0.99ms infinite alternate-reverse;
 }
 
 @keyframes slide {
-  0% {
+  from {
     background: url("img.jpg") no-repeat;
     background: url("img.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     transition: all;
   }
-  100% {
+  to {
     background: url("wallpaperflare.com.jpg") no-repeat;
     background-size: cover;
     background-position: center;
